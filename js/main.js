@@ -216,7 +216,7 @@
 
       setInterval(function () {
         if (x.matches) {
-          if (i == 10) i = 0;
+          if (i == 9) i = 0;
           i = i + 1;
           document.getElementById("fh5co-header").style.backgroundImage =
             "url('images/Mobile/" + i + ".jpg')";
