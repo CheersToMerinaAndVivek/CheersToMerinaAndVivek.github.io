@@ -6,7 +6,7 @@ $grid-gutter-width: 40px !default;
 $border-radius-base: 4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #9d28b0 !default;
+$brand-primary: #d77636 !default;
 $brand-secondary: #118df0 !default;
 
 $brand-white: #fff;
@@ -448,10 +448,10 @@ figure {
   }
   .fh5co-heading {
     h2 {
-      color: $brand-white;
+      color: #d77636;
     }
     span {
-      color: rgba($brand-white, 0.5);
+      color: rgba(#d77636, 0.5);
       text-transform: uppercase;
       font-size: 13px;
       letter-spacing: 2px;
@@ -477,7 +477,7 @@ figure {
 
   .event-wrap {
     border: 2px solid rgba($brand-white, 0.5);
-    background: rgba($brand-white, 0.1);
+    background: rgb(15 15 15 / 28%) !important;
     padding: 30px;
     width: 100%;
     float: left;
@@ -866,7 +866,7 @@ form {
     h2 {
       margin: 0;
       padding: 0;
-      color: rgba(255, 255, 255, 1);
+      color: #d77636;
     }
     h1 {
       margin-bottom: 0px;

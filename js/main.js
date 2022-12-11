@@ -212,21 +212,23 @@
           "url('images/Mobile/1.jpg')";
       else
         document.getElementById("fh5co-header").style.backgroundImage =
-          "url('images/Web/1.png')";
+          "url('images/Mobile/1.jpg')";
+      // "url('images/Web/1.png')";
 
       setInterval(function () {
         if (x.matches) {
-          if (i == 9) i = 0;
+          if (i >= 9) i = 0;
           i = i + 1;
           document.getElementById("fh5co-header").style.backgroundImage =
             "url('images/Mobile/" + i + ".jpg')";
         }
         // document.body.style.backgroundImage = "url('" + backgroundImg[i] + "')";
         else {
-          if (i == 6) i = 0;
+          if (i >= 9) i = 0;
           i = i + 1;
           document.getElementById("fh5co-header").style.backgroundImage =
-            "url('images/Web/" + i + ".png')";
+            "url('images/Mobile/" + i + ".jpg')";
+          // "url('images/Web/" + i + ".png')";
         }
       }, 5000);
     }
